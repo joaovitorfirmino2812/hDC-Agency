@@ -57,3 +57,13 @@ header, .navbar {
     margin-right: 10px;
 }
 
+/*Slide--------------------*/
+
+.container-fluid {
+    padding: 0;
+}
+
+p, a {
+    color: #fff;
+    text-decoration: none;
+}
