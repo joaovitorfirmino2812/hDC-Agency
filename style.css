@@ -1,6 +1,8 @@
 body{
     font-family: 'Roboto', sans-serif;
-}
+    margin: 0;
+    padding: 0;
+}   
 
 .row {
     margin: 0;
@@ -28,6 +30,7 @@ header, .navbar {
 
 #logo {
     width: 70px;
+    margin-left: 10px;
 }
 
 .navbar-brand {
@@ -51,4 +54,6 @@ header, .navbar {
 .navbar-toggler {
     background: #fff;
     border: solid #fff;
+    margin-right: 10px;
 }
+
