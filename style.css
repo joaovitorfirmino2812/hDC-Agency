@@ -63,7 +63,66 @@ header, .navbar {
     padding: 0;
 }
 
-p, a {
+.carousel-caption {
+    margin-bottom: 20px;
+}
+
+.carousel-caption > p, a {
     color: #fff;
     text-decoration: none;
 }
+
+.main-btn {
+    text-transform: uppercase;
+    background-color: #65DAF5;
+    padding: 7px 20px;
+    border: 3px solid transparent;
+    border-radius: 30px;
+    transition: .5s;
+
+}
+
+.main-btn:hover {
+    color: #fff;
+    background-color: transparent;
+    border-color: #65DAF5;
+}
+/*Sobre a agência----------------*/
+#sobre {
+    background-color: #f9f9f9;
+}
+
+ul {
+    list-style: none;
+}
+
+ul i{
+    color: #65DAF5;
+    margin-right: 20px;
+}
+
+.main-title {
+    color: #444;
+    text-align: center;
+    margin: 65px 0px;
+    font-size: 40px;
+}
+
+#linha {
+    border-top: 3px solid #333 ;
+    width: 15%;
+    text-align: center;
+    position: absolute;
+    left: 42.5%;
+    transform: translateY(-40px);
+    color: transparent;
+    content: "";
+}
+
+.about-title {
+    color: #444;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
